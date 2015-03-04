@@ -1,9 +1,12 @@
-map "/" do
-  run Rack::File.new("public/index.html")
-end
-map "/style.css" do
-  run Rack::File.new("public/style.css")
-end
-map "/face.png" do
-  run Rack::File.new("public/face.png")
-end
+require "rack"
+require "rack/contrib/try_static"
+
+use Rack::TryStatic,
+  root: "build",
+  urls: %w[/],
+  try: [".html", "index.html", "/index.html"]
+
+run lambda{ |env|
+  error_404 = File.expand_path("../build/404/index.html", __FILE__)
+  [ 404, { "Content-Type" => "text/html" }, [ File.read(error_404) ]]
+}

@@ -1,4 +1,9 @@
 <div class="sidebar">
-  <%= gravatar_image('wright.grayson@gmail.com') %>
-  <h1>Grayson Wright</h1>
+  <% link_to "/", class: "logo" do %>
+    <%= gravatar_image('wright.grayson@gmail.com') %>
+    <h1>Grayson Wright</h1>
+  <% end %>
+  <ul>
+    <li><%= link_to "Sketches", "/sketches.html" %></li>
+  </ul>
 </div>

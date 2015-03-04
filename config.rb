@@ -40,6 +40,11 @@
 #   activate :livereload
 # end
 
+activate :blog do |sketches|
+  sketches.name = "sketches"
+  sketches.prefix = "sketches"
+end
+
 helpers do
   def gravatar_image(email)
     hash = Digest::MD5.hexdigest(email.chomp.downcase)

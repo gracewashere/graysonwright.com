@@ -40,12 +40,12 @@
 #   activate :livereload
 # end
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def gravatar_image(email)
+    hash = Digest::MD5.hexdigest(email.chomp.downcase)
+    image_tag "http://www.gravatar.com/avatar/#{hash}?s=300"
+  end
+end
 
 set :css_dir, 'stylesheets'
 

@@ -5,7 +5,7 @@
 
 $emphasis: #5cc265;
 $dark: #444;
-$padding-top: 10em;
+$padding-top: 10rem;
 
 html, body {
   height: 100%;
@@ -48,10 +48,10 @@ a {
 
 .content {
   padding-top: $padding-top;
-
   max-width: 40em;
   @include span-columns(7 of 12);
   @include omega;
+  font-size: 1.2em;
 
   p {
     margin-top: 0;

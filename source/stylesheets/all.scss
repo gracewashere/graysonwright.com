@@ -3,71 +3,58 @@
 @import "bourbon";
 @import "neat";
 
-* {
-  padding: 0;
-  margin: 0;
-} 
-/* Basic Typography */
+$emphasis: #5cc265;
+$dark: #444;
+$padding-top: 10em;
+
 html, body {
-  font-size: 1em;
-  line-height: 1.65em;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  color:#444;
-}
-html {
   height: 100%;
 }
-/* Blocks */
-main {
-  position: relative;
-  width: 40em;
-  margin: auto;
-  margin-top: 10em;
+
+body {
+  @include outer-container(100%);
+  line-height: $gutter;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: $dark;
 }
-p {
-  margin-top: 0.9em;
-  margin-bottom: 0.9em;
-}
-/* Headings */
+
 h1 {
+  line-height: 1em;
+  margin-top: 0;
   font-family: "Bree Serif", serif;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
-h1 {
-  font-size: 2.5em;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
-}
-/* Page Elements */
+
 a {
-  text-decoration:none;
-  color: #5cc265; /* Change Link Color */
-}
-a:hover {
-  text-decoration:underline;
-}
-/* Sidebar */
-img {
-  position: absolute;
-  left: -9em;
-  top: 0em;
-  width:8em;
-  height:8em;
-  border-radius:4em;
-  -moz-border-radius: 4em;
-  -webkit-border-radius: 4em;
-  border: none;
-}
-/* Large Screens */
-@media only screen and (min-width: 1281px) {
-  html, body {
-    font-size: 1.1em;
-  } 
-}
-/* Small Screens */
-@media only screen and (max-width: 800px) { 
-  body {
-    padding:0;
+  text-decoration: none;
+  color: $emphasis;
+  &:hover {
+    text-decoration: underline;
   }
+}
+
+.sidebar {
+  padding-top: $padding-top;
+  @include span-columns(5 of 12);
+  text-align: right;
+
+  img {
+    display: inline-block;
+    margin-bottom: $gutter;
+    max-width: 8em;
+  }
+}
+
+.content {
+  padding-top: $padding-top;
+
+  max-width: 40em;
+  @include span-columns(7 of 12);
+  @include omega;
+
+  p {
+    margin-top: 0;
+  }
+  padding-right: $gutter;
 }

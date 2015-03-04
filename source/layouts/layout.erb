@@ -15,6 +15,10 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <%= partial "sidebar" %>
+
+    <div class="content">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,0 +1,12 @@
+---
+title: Seal Rock
+date: 2014-10-27 14:00 PST
+cover: 2014-10-27-seal-rock/sketch.jpg
+---
+
+A view of the Cliff House from Ocean Beach, San Francisco.
+As I understand it, the rocks cropping out from the water
+were once a popular stomping ground for SF's sea lion population,
+before they found a more exciting hangout near Fisherman's Wharf.
+
+![Seal Rock](2014-10-27-seal-rock/context.jpg)

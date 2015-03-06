@@ -40,7 +40,7 @@ a {
 
 .sidebar {
   padding-top: $padding-top;
-  @include span-columns(5 of 12);
+  @include span-columns(4 of 12);
   text-align: right;
 
   img {
@@ -53,7 +53,7 @@ a {
 .content {
   padding-top: $padding-top;
   max-width: 40em;
-  @include span-columns(7 of 12);
+  @include span-columns(6 of 12);
   @include omega;
   font-size: 1.2em;
 
@@ -64,5 +64,21 @@ a {
 }
 
 ul {
+  list-style: none;
   margin-top: $gutter;
+}
+
+article {
+  padding-bottom: 12em;
+
+  h1 { margin-bottom: 1.62rem; }
+
+  img {
+    max-width: 100%;
+    margin-top: $gutter;
+    margin-bottom: $gutter;
+    transition: transform 1s;
+
+    &:hover { transform: scale(2); }
+  }
 }

@@ -43,6 +43,7 @@
 activate :blog do |sketches|
   sketches.name = "sketches"
   sketches.prefix = "sketches"
+  sketches.layout = "sketch_layout"
 end
 
 helpers do

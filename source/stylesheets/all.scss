@@ -77,9 +77,6 @@ article {
     max-width: 100%;
     margin-top: $gutter;
     margin-bottom: $gutter;
-    transition: transform 1s;
-
-    &:hover { transform: scale(2); }
   }
 }
 

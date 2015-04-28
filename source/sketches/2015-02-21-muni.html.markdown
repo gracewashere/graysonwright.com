@@ -1,0 +1,14 @@
+---
+title: MUNI
+date: 2015-02-21 02:46 UTC
+cover: 2015-02-21-muni/cover.jpg
+---
+
+The view out of a restaurant window, drawn with a waiter's pen.
+This is the southwest corner of the 24th & Mission MUNI stop,
+with the entrance to the underground BART station behind it.
+
+Unfortunately, I didn't have my camera with me.
+I had to take a terribly blurry shot with my phone to give some context.
+
+![MUNI](2015-02-21-muni/context.jpg)

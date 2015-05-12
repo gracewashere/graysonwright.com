@@ -1,0 +1,16 @@
+---
+title: Boat
+date: 2015-05-02 04:26 UTC
+cover: 2015-05-02-boat/cover.jpg
+---
+
+This boat was full of people tailgating near AT&T Park during a Giants game.
+
+The picture doesn't capture the original scene too well,
+other than the basic structure of the boat.
+
+In real life, the boat was much longer - the proportions got stretched a bit,
+probably because the wind kept changing the angle that I saw the boat from.
+
+The boat also started out white, but my sad attempts at putting texture on the
+hull forced me to eventually fill it in much darker.

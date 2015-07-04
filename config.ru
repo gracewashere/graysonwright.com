@@ -1,12 +1,4 @@
-require "rack"
-require "rack/contrib/try_static"
+require "sinatra"
+require_relative "server"
 
-use Rack::TryStatic,
-  root: "build",
-  urls: %w[/],
-  try: [".html", "index.html", "/index.html"]
-
-run lambda{ |env|
-  error_404 = File.expand_path("../build/404/index.html", __FILE__)
-  [ 404, { "Content-Type" => "text/html" }, [ File.read(error_404) ]]
-}
+run Sinatra::Application

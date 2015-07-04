@@ -11,4 +11,4 @@ I managed to fix it with a visit to SF's botanical gardens,
 and sent my mom a ((picture of a) drawing of a) flower for Mother's day.
 The drawing itself followed quickly in the mail.
 
-![context](2015-05-09-mothers-day/context.jpg)
+![context](/sketches/2015-05-09-mothers-day/context.jpg)

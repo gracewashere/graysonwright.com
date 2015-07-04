@@ -1,8 +1,8 @@
 <% blog(:sketches).articles.each do |sketch| %>
-  <% link_to sketch.url do %>
+  <a href="<%= sketch.url %>">
     <div class="sketch-link">
-      <%= image_tag "/sketches/" + sketch.data[:cover], class: "thumbnail" %>
+      <img src="<%= "/sketches/" + sketch.data[:cover] %>" class="thumbnail" />
       <span><%= sketch.title %></span>
     </div>
-  <% end %>
+  </a>
 <% end %>

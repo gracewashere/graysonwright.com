@@ -16,4 +16,4 @@ I got to the water and the grass.
 The midground was a bit of an afterthought,
 and in retrospect I probably should have left it out.
 
-![context](2015-05-10-lightpost/context.jpg)
+![context](/sketches/2015-05-10-lightpost/context.jpg)

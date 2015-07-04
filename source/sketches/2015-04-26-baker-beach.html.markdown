@@ -10,4 +10,4 @@ but as a subject of sketches and photos it's getting a bit old.
 
 The cliff-top houses to the south, though...
 
-![Baker Beach](2015-04-26-baker-beach/context.jpg)
+![Baker Beach](/sketches/2015-04-26-baker-beach/context.jpg)

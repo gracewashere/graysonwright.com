@@ -1,9 +1,9 @@
 <div class="sidebar">
-  <% link_to "/", class: "logo" do %>
+  <a href="<%= url("/") %>" class="logo">
     <%= gravatar_image('wright.grayson@gmail.com') %>
     <h1>Grayson Wright</h1>
-  <% end %>
+  </a>
   <ul>
-    <li><%= link_to "Sketches", "/sketches.html" %></li>
+    <li><a href="/sketches.html">Sketches</a></li>
   </ul>
 </div>

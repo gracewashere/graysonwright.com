@@ -15,4 +15,4 @@ I like the play of the strong lines from the pen,
 and the gentle gradients of watercolor.
 I'll have to play with it more to find a combination I really like.
 
-![context](2015-05-03-lake-merritt-pillars/context.jpg)
+![context](/sketches/2015-05-03-lake-merritt-pillars/context.jpg)

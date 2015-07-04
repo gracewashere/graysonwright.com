@@ -15,7 +15,7 @@ You might say the exhibit inspired me.
 Not inspired enough to draw [hundreds of penises],
 but enough to draw the building that contained them.
 
-![De Young Museum](2015-02-01-deyoung/context.jpg)
+![De Young Museum](/sketches/2015-02-01-deyoung/context.jpg)
 
 [The Political Line]: https://deyoung.famsf.org/haring
 [hundreds of penises]: http://www.spectacles-selection.com/archives/expositions/fiche_expo_H/haring-V/haring.htm

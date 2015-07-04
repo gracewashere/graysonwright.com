@@ -9,4 +9,4 @@ entirely, but there were some cool dunes that I tried to capture.
 
 Takeaway: sand is soft to lay on, but hard to draw.
 
-![Fort Funston](2015-03-28-fort-funston/context.jpg)
+![Fort Funston](/sketches/2015-03-28-fort-funston/context.jpg)

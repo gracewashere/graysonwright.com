@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "Sinatra App" do
+describe "Index" do
   it "should respond to GET" do
     get "/"
 
@@ -13,6 +13,6 @@ describe "Sinatra App" do
 
     it { should have_title("Grayson Wright") }
     it { should match("I'm a developer and designer") }
-    it { should have_link("Sketches", "/sketches.html") }
+    it { should have_link("Sketches", "/sketches") }
   end
 end

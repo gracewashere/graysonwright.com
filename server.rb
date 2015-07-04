@@ -20,7 +20,7 @@ end
 get "/javascripts/all.js" do
 end
 
-get "/sketches.html" do
+get "/sketches" do
   erb :sketches, layout: :"layouts/layout"
 end
 

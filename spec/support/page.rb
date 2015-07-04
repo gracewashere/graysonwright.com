@@ -17,7 +17,7 @@ module SpecHelpers
     end
 
     def has_link?(text, url)
-      html.css("a[href='#{url}']").any? { |link| link.text == text }
+      html.css("a[href='#{url}']").any? { |link| link.text.strip == text }
     end
 
     attr_reader :html

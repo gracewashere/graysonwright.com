@@ -7,21 +7,12 @@ describe "Sinatra App" do
     expect(last_response).to be_ok
   end
 
-  it "has a title" do
-    get "/"
+  describe "contents" do
+    before { get "/" }
+    subject { page }
 
-    expect(page).to have_title("Grayson Wright")
-  end
-
-  it "has a description" do
-    get "/"
-
-    expect(page).to match("I'm a developer and designer")
-  end
-
-  it "has a link to sketches" do
-    get "/"
-
-    expect(page).to have_link("Sketches", "/sketches.html")
+    it { should have_title("Grayson Wright") }
+    it { should match("I'm a developer and designer") }
+    it { should have_link("Sketches", "/sketches.html") }
   end
 end

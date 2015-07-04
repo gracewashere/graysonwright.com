@@ -14,5 +14,6 @@ describe "Index" do
     it { should have_title("Grayson Wright") }
     it { should match("I'm a developer and designer") }
     it { should have_link("Sketches", "/sketches") }
+    it { should have_link("Projects", "/projects") }
   end
 end

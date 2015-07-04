@@ -3,6 +3,8 @@
 @import "bourbon";
 @import "neat";
 
+@import "components/projects";
+
 $emphasis: #5cc265;
 $dark: #444;
 $padding-top: 10rem;
@@ -48,19 +50,20 @@ a {
     max-width: 8em;
     margin-bottom: $gutter;
   }
+
+  ul li {
+    margin: $gutter 0;
+  }
 }
 
 .content {
-  padding-top: $padding-top;
-  max-width: 40em;
-  @include span-columns(6 of 12);
   @include omega;
+  @include span-columns(6 of 12);
   font-size: 1.2em;
-
-  p {
-    margin-top: 0;
-  }
+  margin-bottom: $gutter * 4;
+  max-width: 40em;
   padding-right: $gutter;
+  padding-top: $padding-top;
 }
 
 ul {
@@ -75,8 +78,6 @@ article {
 
   img {
     max-width: 100%;
-    margin-top: $gutter;
-    margin-bottom: $gutter;
   }
 }
 

@@ -20,6 +20,14 @@ module SpecHelpers
       html.css("a[href='#{url}']").any? { |link| link.text.strip == text }
     end
 
+    def has_tag?(tag, text)
+      html.css(tag).any? { |tag| tag.text.strip == text }
+    end
+
+    def inspect
+      html.to_s
+    end
+
     attr_reader :html
   end
 end

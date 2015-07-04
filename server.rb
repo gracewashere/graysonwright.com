@@ -21,11 +21,23 @@ get "/javascripts/all.js" do
 end
 
 get "/sketches" do
+  @page_title ||= "Sketches"
   erb :sketches, layout: :"layouts/layout"
+end
+
+get "/projects" do
+  @page_title ||= "Projects"
+  erb :projects, layout: :"layouts/layout"
 end
 
 get %r{(/sketches/.+\.jpg)} do |file|
   send_file "source" + file
+end
+
+get "/projects/:name" do
+  name = params[:name]
+  @page_title = name.split("_").map(&:capitalize).join(" ")
+  markdown "projects/#{name}".to_sym, layout_engine: :erb, layout: :"layouts/layout"
 end
 
 get %r{/sketches/(\d{4})/(\d{2})/(\d{2})/(.+.html)$} do |year, month, day, title|
@@ -40,6 +52,12 @@ get %r{/sketches/(\d{4})/(\d{2})/(\d{2})/(.+.html)$} do |year, month, day, title
 end
 
 def current_page
+  title = "Grayson Wright"
+
+  if @page_title
+    title = "#{@page_title} | #{title}"
+  end
+
   if @page
     parsed = @page
     Struct.new(:data).new(
@@ -47,7 +65,7 @@ def current_page
     )
   else
     Struct.new(:data).new(
-      Struct.new(:title, :cover).new("Grayson Wright", "")
+      Struct.new(:title, :cover).new(title, "")
     )
   end
 end

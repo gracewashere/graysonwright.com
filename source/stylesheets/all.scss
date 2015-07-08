@@ -13,13 +13,12 @@ $heading-font-family: "proxima-nova", sans-serif;
 $block-font-family: "adelle", serif;
 
 html, body {
-  -webkit-font-smoothing: antialiased;
   color: $dark;
   font-family: $block-font-family;
   font-size: 16px;
-  font-style: normal;
   font-variant: normal;
   font-weight: normal;
+  font-weight: 300;
   height: 100%;
   line-height: $gutter;
 }

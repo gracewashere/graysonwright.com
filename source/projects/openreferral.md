@@ -1,5 +1,6 @@
 # San Francisco OpenReferral
-(in progress, [open source])
+
+Lead Developer | [Open Source] | [Visit Site]
 
 ## What is it?
 
@@ -93,7 +94,9 @@ but the user-driven process ensures we're on the fastest route to get there.
 Follow along with the project [on GitHub][open source].
 or stop by [Code for San Francisco] to see how we're doing!
 
-[open source]: https://github.com/sfbrigade/sf-openreferral/
+
+[Visit Site]: http://openreferral.org/
+[Open Source]: https://github.com/sfbrigade/sf-openreferral/
 [Code for San Francisco]: http://codeforsanfrancisco.org/
 [SF Reentry Council]: http://sfgov2.org/index.aspx?page=4663
 [Guide to Getting Out and Staying Out]: http://sfgov2.org/ftp/_gfx/reentry/documents/Getting-Out-Staying-Out.pdf

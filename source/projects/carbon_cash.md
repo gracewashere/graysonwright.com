@@ -1,7 +1,6 @@
 # Carbon Cash
-(Freelance Developer)
 
-[Visit Site](http://carboncash.co/)
+API Developer | [Visit Site](http://carboncash.co/)
 
 ### What is it?
 

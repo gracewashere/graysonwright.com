@@ -1,5 +1,6 @@
 # Administrate
-(in progress; not yet released)
+
+Lead Developer | In Progress
 
 ![Administrate logo](/projects/administrate/logo.png)
 

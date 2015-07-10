@@ -5,7 +5,7 @@ title: Grayson Wright
 I'm a developer and designer currently working at [thoughtbot] in San Francisco.
 In my spare time, I help build solutions to social problems at [Code for SF].
 
-Until recently I studied computer science at [MSU],
+Until recently I studied computer science at [Michigan State University][MSU],
 where I researched digital evolution at the [BEACON] center
 and helped the startups [TempoRun] and [Carbon Cash] build their web services.
 

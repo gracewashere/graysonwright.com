@@ -36,11 +36,7 @@ As the backend developer for the project, I created a system to pull and process
 energy usage data from several power companies. I created an API to expose the
 processed data to web, iOS, and Android apps, and I set up an admin interface
 for stakeholders in the company to manage the data.
-
 I also managed hosting and server maintenance.
-More recently, I use managed servers such as Heroku and AWS whenever possible
-to reduce the inherent risk of managing a server,
-and to free up developer time to focus on the product.
 
 ### Handoff and results
 

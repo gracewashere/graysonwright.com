@@ -1,6 +1,6 @@
 # San Francisco OpenReferral
 
-Lead Developer | [Open Source] | [Visit Site]
+Lead Developer | In Progress | [View Source]
 
 ## What is it?
 
@@ -12,8 +12,8 @@ in and around San Francisco.
 
 Although the OpenReferral movement has groups
 in many cities across the country,
-our group has a local focus:
-Help the [SF Reentry Council]
+our group has a local focus;
+help the [SF Reentry Council]
 collect, maintain, and distribute
 the information in their biannual publication,
 the [Guide to Getting Out and Staying Out].
@@ -30,7 +30,7 @@ the [Guide to Getting Out and Staying Out].
   <aside class="screenshot">
     <img alt="" src="/projects/openreferral/webapp.png" />
     <blockquote>
-      The new webapp makes it easy for multiple employees
+      The new web app makes it easy for multiple employees
       to manage and distribute social service information.
     </blockquote>
   </aside>
@@ -91,12 +91,12 @@ for the Reentry council.
 
 We still have some work to do before we release the app to the wild,
 but the user-driven process ensures we're on the fastest route to get there.
-Follow along with the project [on GitHub][open source].
+Follow along with the project [on GitHub][View Source]
 or stop by [Code for San Francisco] to see how we're doing!
 
 
 [Visit Site]: http://openreferral.org/
-[Open Source]: https://github.com/sfbrigade/sf-openreferral/
+[View Source]: https://github.com/sfbrigade/sf-openreferral/
 [Code for San Francisco]: http://codeforsanfrancisco.org/
 [SF Reentry Council]: http://sfgov2.org/index.aspx?page=4663
 [Guide to Getting Out and Staying Out]: http://sfgov2.org/ftp/_gfx/reentry/documents/Getting-Out-Staying-Out.pdf

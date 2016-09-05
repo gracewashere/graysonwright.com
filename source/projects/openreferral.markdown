@@ -1,18 +1,18 @@
 # San Francisco OpenReferral
 
-Lead Developer | In Progress | [View Source]
+Lead Developer | 2015 | [View Source]
 
 ## What is it?
 
-Every Wednesday night as part of [Code for San Francisco],
-I work with the OpenReferral team
+In 2015 as part of [Code for San Francisco],
+I worked with the OpenReferral team
 to collect and distribute
 information about social service organizations
 in and around San Francisco.
 
 Although the OpenReferral movement has groups
 in many cities across the country,
-our group has a local focus;
+the San Francisco group has a local focus;
 help the [SF Reentry Council]
 collect, maintain, and distribute
 the information in their biannual publication,
@@ -49,16 +49,12 @@ to improve the quality of their information.
 
 ## My Role
 
-Since I joined the project in January,
-I've been the lead developer on the team.
+For the year that I worked on the project,
+I was the lead developer on the team.
 I spend a lot of time
 onboarding and coordinating the efforts of several volunteers,
 in addition to standard development work.
-
-I've also been able to apply some of my consulting experience
-to the project.
-Over the past few months, I've advocated strongly for user testing
-and group design exercises -
+I advocated for and led user testing and group design exercises -
 both have had big impacts on the direction of the project.
 
 ## Process
@@ -78,22 +74,6 @@ has been keeping momentum strong on the project.
 To combat this, we schedule in regular user feedback.
 The feedback helps both to validate our product design ideas
 and to keep us driven and focused on the most important user-facing tasks.
-
-After talking a couple times
-with users from the Reentry Council team,
-we decided that the app we started with
-(based on DC's OpenReferral project)
-was too general to be useful for managing the guidebook.
-Over the last two months
-we've cut out many unnecessary features
-to focus on the most important use case
-for the Reentry council.
-
-We still have some work to do before we release the app to the wild,
-but the user-driven process ensures we're on the fastest route to get there.
-Follow along with the project [on GitHub][View Source]
-or stop by [Code for San Francisco] to see how we're doing!
-
 
 [Visit Site]: http://openreferral.org/
 [View Source]: https://github.com/sfbrigade/sf-openreferral/

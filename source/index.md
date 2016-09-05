@@ -8,7 +8,7 @@ building [a tool to help the Seattle Police Department deliver better care][app]
 to people with mental illnesses and chemical dependencies
 in their community.
 
-Before that, I worked as a consultant at [thoughtbot] in San Francisco,
+Before that I worked as a consultant at [thoughtbot] in San Francisco,
 building a wide range of web applications for startups and large businesses.
 
 I studied computer science at [Michigan State University][MSU],

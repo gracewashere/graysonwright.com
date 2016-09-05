@@ -1,25 +1,25 @@
 # Administrate
 
-Lead Developer | In Progress
+Lead Developer | 2015 | [Visit Site] | [View Source]
+
+[Visit Site]: https://administrate-prototype.herokuapp.com/
+[View Source]: https://github.com/thoughtbot/administrate
 
 ![Administrate logo](/projects/administrate/logo.png)
 
 ### What is it?
 
-Every Friday at thoughtbot, we take a break from client work to spend the day
-on internal tools, products, and open source libraries.
-For the last several months,
-I've been the lead developer on Administrate -
+During my time at thoughtbot
+I was the lead developer on Administrate -
 a library that helps developers set up a useful and intuitive admin dashboard
 for any Ruby on Rails app.
 
 ### Why?
 
-This project grew out of observing my clients' and coworkers' frustrations with
-existing tools.
-While several other admin dashboard libraries exist,
-the existing solutions often make it difficult for users
-to find information they're using for,
+The project grew out of observing my clients' and coworkers' frustrations with
+existing Rails admin dashboards.
+While several other options exist,
+they often made it difficult for users to find information they're using for,
 and challenging for developers to customize beyond the default behavior.
 
 <div class="screenshots">
@@ -44,22 +44,16 @@ and challenging for developers to customize beyond the default behavior.
 
 One of the things that drew me to this project is that,
 unlike most open-source projects,
-Administrate's interface will be used by non-technical people.
-The goal is to design an interface both general enough
+Administrate's interface is used by non-technical people.
+The goal was to design an interface both general enough
 to be used in any Rails app,
 and intuitive enough for non-technical admins to be productive with it.
 
 ### Process
 
-From the beginning, I wanted the project to be user-driven.
+From the beginning the project was driven by user testing and feedback.
 Before writing a single line of code,
 I watched coworkers work with the existing libraries to find pain points.
-Shortly after, I created several iterations of prototypes and collected feedback
-to validate my assumptions about the project.
-
-I'm working with designers at thoughtbot
-to improve the visual design and user experience.
-In the next few weeks,
-we'll ask nontechnical users to walk through the interface as we watch
-so we can identify areas that need work.
-
+While developing,
+I created several iterations of prototypes
+and collected feedback to validate my assumptions about the project.

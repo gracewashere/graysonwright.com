@@ -19,6 +19,8 @@ with no frameworks layered on top.
 As a toy project, I set out to build a friendly web interface
 to [Chris Kempson's wonderful base16 command-line tool][base16].
 
+![colors web interface](/projects/colors/screenshot.png)
+
 ### Implementation
 
 The application uses ES6 classes to control the behavior of each UI element.

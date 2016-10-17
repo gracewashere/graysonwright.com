@@ -5,9 +5,15 @@
 
 @import "components/projects";
 
-$emphasis: #5cc265;
+$blue: #2299d4;
+$white: #fcfdff;
+
+$emphasis: $blue;
 $dark: #444;
+
 $padding-top: 10rem;
+$sidebar-width: 33%;
+$content-width: 100% - $sidebar-width;
 
 $heading-font-family: "proxima-nova", sans-serif;
 $block-font-family: "adelle", serif;
@@ -15,7 +21,7 @@ $block-font-family: "adelle", serif;
 html, body {
   color: $dark;
   font-family: $block-font-family;
-  font-size: 16px;
+  font-size: 18px;
   font-variant: normal;
   font-weight: normal;
   font-weight: 300;
@@ -54,32 +60,38 @@ a {
 }
 
 .sidebar {
+  background-color: $blue;
+  height: 100%;
+  padding-right: $gutter;
   padding-top: $padding-top;
-  @include span-columns(4 of 12);
+  position: fixed;
   text-align: right;
+  width: $sidebar-width;
+  overflow-y: scroll;
 
   img {
     display: inline-block;
-    max-width: 8em;
+    max-width: 12em;
     margin-bottom: $gutter;
   }
 
   ul li {
-    font-family: $heading-font-family;
-    font-size: 1.2em;
-    font-weight: 700;
     margin: $gutter 0;
+  }
+
+  a {
+    color: $white;
   }
 }
 
 .content {
-  @include omega;
-  @include span-columns(6 of 12);
-  font-size: 1.2em;
   margin-bottom: $gutter * 4;
+  top: $padding-top;
+  padding: $gutter;
+  padding-top: 0;
+  position: absolute;
+  left: $sidebar-width;
   max-width: 40em;
-  padding-right: $gutter;
-  padding-top: $padding-top;
 }
 
 ul {

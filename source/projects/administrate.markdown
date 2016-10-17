@@ -2,7 +2,7 @@
 
 Lead Developer | 2015 | [Visit Site] | [View Source]
 
-[Visit Site]: https://administrate-prototype.herokuapp.com/
+[Visit Site]: http://administrate-prototype.herokuapp.com/
 [View Source]: https://github.com/thoughtbot/administrate
 
 ![Administrate logo](/projects/administrate/logo.png)

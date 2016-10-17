@@ -1,0 +1,14 @@
+<svg width="181" height="175" viewBox="0 0 181 175" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Slice 1
+    </title>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFED00" d="M61 55l51.962 30v60L61 175 9.038 145V85z"/>
+        <path fill="#00F" d="M121 55l51.962 30v60L121 175l-51.962-30V85z"/>
+        <path fill="#F00" d="M91 0l51.962 30v60L91 120 39.038 90V30z"/>
+        <path d="M91 157.68L69.038 145V85L91 72.32 112.962 85v60L91 157.68z" fill="#0C0"/>
+        <path d="M112.962 107.32L91 120 39.038 90V67.68L61 55l51.962 30v22.32z" fill="#FF8400"/>
+        <path d="M142.962 67.68V90L91 120l-21.962-12.68V85L121 55l21.962 12.68z" fill="#8707F6"/>
+        <path d="M112.962 107.32L91 120l-21.962-12.68V85L91 72.32 112.962 85v22.32z" fill="#FFF"/>
+    </g>
+</svg>

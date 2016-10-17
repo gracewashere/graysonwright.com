@@ -1,0 +1,19 @@
+<article>
+  <h1><%= current_page["title"] %></h1>
+
+  <p>
+  <%= [
+    current_page["position"],
+    current_page["dates"],
+    ("<a href='#{ current_page['site'] }'>Visit Site</a>" if current_page["site"]),
+    ("<a href='#{ current_page['source'] }'>View Source</a>" if current_page["source"]),
+  ].compact.join(" | ")
+%>
+  </p>
+
+  <% if current_page["full_logo"] %>
+    <img src="<%= current_page["full_logo"] %>" class="cover" />
+  <% end %>
+
+  <%= yield %>
+</article>

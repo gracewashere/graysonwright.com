@@ -1,6 +1,12 @@
-# San Francisco OpenReferral
-
-Lead Developer | 2015 | [View Source]
+---
+title: San Francisco OpenReferral
+dates: 2015
+site: http://openreferral.org/
+source: https://github.com/sfbrigade/sf-openreferral/
+logo: /projects/openreferral/logo.png
+position: Lead Developer
+teaser: In 2015, I volunteered with <a href="http://codeforsanfrancisco.org/">Code for San Francisco</a> on the OpenReferral project.  Our group built a tool that collects and distributes information about social service organizations in the bay area.  As the lead developer in SF, I coordinated the work of many volunteers and helped shape the direction of the project.
+---
 
 ## What is it?
 
@@ -75,8 +81,6 @@ To combat this, we schedule in regular user feedback.
 The feedback helps both to validate our product design ideas
 and to keep us driven and focused on the most important user-facing tasks.
 
-[Visit Site]: http://openreferral.org/
-[View Source]: https://github.com/sfbrigade/sf-openreferral/
 [Code for San Francisco]: http://codeforsanfrancisco.org/
 [SF Reentry Council]: http://sfgov2.org/index.aspx?page=4663
 [Guide to Getting Out and Staying Out]: http://sfgov2.org/ftp/_gfx/reentry/documents/Getting-Out-Staying-Out.pdf

@@ -1,29 +1,6 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<article>
+  <h1><%= current_page["title"] %></h1>
+  <img src="/sketches/<%= current_page["cover"] %>" class="cover" />
 
-    <title><%= current_page.data.title || "Grayson Wright" %></title>
-
-    <link rel="shortcut icon" href="face.png"/>
-
-    <script src="//use.typekit.net/qmo7wci.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
-  </head>
-
-  <body class="<%= page_classes %>">
-    <%= partial "sidebar" %>
-
-    <div class="content">
-      <article>
-        <h1><%= current_page.data[:title] %></h1>
-        <img src="<%= current_page.data[:cover] %>" class="cover" />
-
-        <%= yield %>
-      </article>
-    </div>
-  </body>
-</html>
+  <%= yield %>
+</article>

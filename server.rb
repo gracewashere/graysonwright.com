@@ -3,7 +3,7 @@ require "sinatra/reloader"
 require "bourbon"
 require "neat"
 require "front_matter_parser"
-require_relative "lib/legacy/blog"
+require_relative "lib/collection"
 
 set views: File.expand_path("../source", __FILE__)
 
@@ -35,20 +35,25 @@ get %r{(/sketches/.+\.jpg)} do |file|
 end
 
 get "/projects/:name" do
-  name = params[:name]
-  @page_title = name.split("_").map(&:capitalize).join(" ")
-  markdown "projects/#{name}".to_sym, layout_engine: :erb, layout: :"layouts/layout"
+  file = "projects/#{params[:name]}.markdown"
+  path = File.expand_path("../source/#{file}/", __FILE__)
+  parsed = FrontMatterParser.parse_file(path, comment: "")
+  @page_data = parsed.front_matter
+
+  erb(:"layouts/layout", layout: false) do
+    markdown parsed.content, layout_engine: :erb, layout: :"layouts/project_layout"
+  end
 end
 
 get %r{/sketches/(\d{4})/(\d{2})/(\d{2})/(.+.html)$} do |year, month, day, title|
-  template = "sketches/#{year}-#{month}-#{day}-#{title}"
-
-  file = template + ".markdown"
+  file = "sketches/#{year}-#{month}-#{day}-#{title}.markdown"
   path = File.expand_path("../source/#{file}/", __FILE__)
   parsed = FrontMatterParser.parse_file(path, comment: "")
-  @page = parsed
+  @page_data = parsed.front_matter
 
-  markdown parsed.content, layout_engine: :erb, layout: :"layouts/sketch_layout"
+  erb(:"layouts/layout", layout: false) do
+    markdown parsed.content, layout_engine: :erb, layout: :"layouts/sketch_layout"
+  end
 end
 
 def current_page
@@ -58,16 +63,7 @@ def current_page
     title = "#{@page_title} | #{title}"
   end
 
-  if @page
-    parsed = @page
-    Struct.new(:data).new(
-      Struct.new(:title, :cover).new(parsed.front_matter["title"], "/sketches/" + parsed.front_matter["cover"])
-    )
-  else
-    Struct.new(:data).new(
-      Struct.new(:title, :cover).new(title, "")
-    )
-  end
+  @page_data || { "title" => title, "cover" => "" }
 end
 
 def stylesheet_link_tag(*stylesheets)
@@ -90,11 +86,6 @@ def partial(partial_name)
   erb "_#{partial_name}".to_sym
 end
 
-def gravatar_image(email)
-  hash = Digest::MD5.hexdigest(email.chomp.downcase)
-  "<img src=\"http://www.gravatar.com/avatar/#{hash}?s=300\"/>"
-end
-
-def blog(name)
-  Blog.new(name, __FILE__)
+def collection(name)
+  Collection.new(name, __FILE__)
 end

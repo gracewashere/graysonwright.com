@@ -10,87 +10,36 @@ Here's a sampling of current and past work.
 </p>
 
 <div class="projects">
-  <div class="project project-inprogress project-lead">
-    <div class="project-media">
-      <img src="/projects/openreferral/logo.png" alt="OpenReferral Logo"/>
-    </div>
-    <div class="project-info">
-      <h2>San Francisco OpenReferral</h2>
-      <div class="description">
-        In 2015,
-        I volunteered with <a href="http://codeforsanfrancisco.org/">Code for San Francisco</a>
-        on the OpenReferral project.
-        Our group built a tool that collects and distributes
-        information about social service organizations in the bay area.
-        As the lead developer in SF,
-        I coordinated the work of many volunteers
-        and helped shape the direction of the project.
+  <% collection(:projects).pages.each do |project| %>
+    <div class="project">
+      <div class="project-media">
+        <img
+           src="<%= project.data[:logo] %>"
+           alt="<%= project.data[:title] %> Logo"
+           />
       </div>
-      <ul class="project-links">
-        <li><a class="details" href="/projects/openreferral">Details</a></li>
-        <li><a class="source" href="https://github.com/sfbrigade/sf-openreferral/">View Source</a></li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="project project-inprogress">
-    <div class="project-media">
-      <img src="/projects/administrate/logo_cropped.png" alt="Administrate Logo"/>
-    </div>
-    <div class="project-info">
-      <h2>Administrate</h2>
-      <div class="description">
-        Administrate is an open-source tool
-        for creating user-friendly and developer-friendly admin dashboards
-        in Rails apps.
-        I was the lead developer on the project
-        and took the library from concept to launch,
-        with several rounds of user testing along the way.
-      </div>
-      <ul class="project-links">
-        <li><a class="details" href="/projects/administrate">Details</a></li>
-        <li><a class="website" href="http://administrate-prototype.herokuapp.com/">Visit Site</a></li>
-        <li><a class="source" href="https://github.com/thoughtbot/administrate">View Source</a></li>
-      </ul>
-    </div>
-  </div>
+      <div class="project-info">
+        <h2><%= project.data[:title] %></h2>
 
-  <div class="project">
-    <div class="project-media">
-      <img src="http://logo.clearbit.com/thoughtbot.com" alt="thoughtbot Logo"/>
-    </div>
-    <div class="project-info">
-      <h2>thoughtbot Client Work</h2>
-      <div class="description">
-        During the week, I work with clients to create web applications -
-        I build out new features, modernize legacy apps,
-        and teach teams <a href="http://playbook.thoughtbot.com/">best practices for development</a>.
-        Unfortunately I can't talk about many of my projects,
-        but you can find <a href="https://thoughtbot.com/work">some sample work</a> on our website.
-      </div>
-      <ul class="project-links">
-        <li><a class="website" href="https://thoughtbot.com/">Visit Site</a></li>
-      </ul>
-    </div>
-  </div>
+        <div class="description">
+          <%= project.data[:teaser] %>
+        </div>
 
-  <div class="project">
-    <div class="project-media">
-      <img src="/projects/carbon_cash/logo.png" alt="Carbon Cash Logo"/>
-    </div>
-    <div class="project-info">
-      <h2>Carbon Cash</h2>
-      <div class="description">
-        Carbon Cash is an environmental startup
-        dedicated to reducing energy consumption on college campuses.
-        I helped the team build an API
-        to process data from power companies
-        and power web, Android, and iOS apps.
+        <ul class="project-links">
+          <% if project.data[:skeleton].nil? %>
+            <li><a class="details" href="<%= project.url %>">Details</a></li>
+          <% end %>
+
+          <% if project.data[:site] %>
+            <li><a class="website" href="<%= project.data[:site] %>">Visit Site</a></li>
+          <% end %>
+
+          <% if project.data[:source] %>
+            <li><a class="source" href="<%= project.data[:source] %>">View Source</a></li>
+          <% end %>
+        </ul>
       </div>
-      <ul class="project-links">
-        <li><a class="details" href="/projects/carbon_cash">Details</a></li>
-        <li><a class="website" href="http://carboncash.co/">Visit Site</a></li>
-      </ul>
     </div>
-  </div>
+  <% end %>
 </div>

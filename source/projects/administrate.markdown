@@ -1,11 +1,13 @@
-# Administrate
-
-Lead Developer | 2015 | [Visit Site] | [View Source]
-
-[Visit Site]: http://administrate-prototype.herokuapp.com/
-[View Source]: https://github.com/thoughtbot/administrate
-
-![Administrate logo](/projects/administrate/logo.png)
+---
+title: Administrate
+dates: 2015
+site: http://administrate-prototype.herokuapp.com/
+source: https://github.com/thoughtbot/administrate
+logo: /projects/administrate/logo_cropped.png
+full_logo: /projects/administrate/logo.png
+position: Lead Developer
+teaser: Administrate is an open-source tool for creating user-friendly and developer-friendly admin dashboards in Rails apps.  I was the lead developer on the project and took the library from concept to launch, with several rounds of user testing along the way.
+---
 
 ### What is it?
 

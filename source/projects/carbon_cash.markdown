@@ -1,6 +1,11 @@
-# Carbon Cash
-
-API Developer | [Visit Site](http://carboncash.co/)
+---
+title: Carbon Cash
+dates: 2014
+site: http://carboncash.co/
+logo: /projects/carbon_cash/logo.png
+position: API Developer
+teaser: Carbon Cash is an environmental startup dedicated to reducing energy consumption on college campuses.  I helped the team build an API to process data from power companies and power web, Android, and iOS apps.
+---
 
 ### What is it?
 

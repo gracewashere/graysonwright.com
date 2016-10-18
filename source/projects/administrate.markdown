@@ -9,14 +9,14 @@ position: Lead Developer
 teaser: Administrate is an open-source tool for creating user-friendly and developer-friendly admin dashboards in Rails apps.  I was the lead developer on the project and took the library from concept to launch, with several rounds of user testing along the way.
 ---
 
-### What is it?
+## What is it?
 
 During my time at thoughtbot
 I was the lead developer on Administrate -
 a library that helps developers set up a useful and intuitive admin dashboard
 for any Ruby on Rails app.
 
-### Why?
+## Why?
 
 The project grew out of observing my clients' and coworkers' frustrations with
 existing Rails admin dashboards.
@@ -51,7 +51,7 @@ The goal was to design an interface both general enough
 to be used in any Rails app,
 and intuitive enough for non-technical admins to be productive with it.
 
-### Process
+## Process
 
 From the beginning the project was driven by user testing and feedback.
 Before writing a single line of code,

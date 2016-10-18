@@ -7,7 +7,7 @@ position: API Developer
 teaser: Carbon Cash is an environmental startup dedicated to reducing energy consumption on college campuses.  I helped the team build an API to process data from power companies and power web, Android, and iOS apps.
 ---
 
-### What is it?
+## What is it?
 
 Carbon Cash is an environmental startup dedicated to reducing energy consumption
 on college campuses. Generally, students in dormitories don't have a clear idea
@@ -35,7 +35,7 @@ and rewards them for conserving resources.
   </aside>
 </div>
 
-### My role
+## My role
 
 As the backend developer for the project, I created a system to pull and process
 energy usage data from several power companies. I created an API to expose the
@@ -43,7 +43,7 @@ processed data to web, iOS, and Android apps, and I set up an admin interface
 for stakeholders in the company to manage the data.
 I also managed hosting and server maintenance.
 
-### Handoff and results
+## Handoff and results
 
 As a temporary developer on the project,
 I wrote and maintained tests for all of the code I wrote,

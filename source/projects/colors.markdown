@@ -8,7 +8,7 @@ position: Side Project
 teaser: To get more comfortable with ES6, I built a web interface for designing and downloading color scheme files for text editors.
 ---
 
-### A Learning Tool
+## A Learning Tool
 
 The main purpose of colors.graysonwright.com is to learn ES6,
 the new Javascript standard.
@@ -21,7 +21,7 @@ to [Chris Kempson's wonderful base16 command-line tool][base16].
 
 ![colors web interface](/projects/colors/screenshot.png)
 
-### Implementation
+## Implementation
 
 The application uses ES6 classes to control the behavior of each UI element.
 It uses a custom color picker built on HTML canvas,

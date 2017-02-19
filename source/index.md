@@ -1,12 +1,10 @@
----
-title: Grayson Wright
----
+I'm an application designer and developer
+currently working on a project called Assemble.
 
-I'm a developer and designer
-currently working at [Code for America],
-building [a tool to help the Seattle Police Department deliver better care][app]
-to people with mental illnesses and chemical dependencies
-in their community.
+As a fellow at [Code for America][cfa] in 2016,
+I helped build
+[a tool to help the Seattle Police Department deliver better care][ridealong]
+to people with mental illness in their community.
 
 Before that I worked as a consultant at [thoughtbot] in San Francisco,
 building a wide range of web applications for startups and large businesses.
@@ -22,8 +20,8 @@ Get in touch with me by [email] – I'd love to chat.
 You can also find me on [github] and [twitter].
 
 
-[Code for America]: https://www.codeforamerica.org/
-[app]: https://www.codeforamerica.org/why-government/our-partners/seattle-wa/
+[cfa]: https://www.codeforamerica.org/
+[ridealong]: http://getridealong.com/
 
 [thoughtbot]: https://thoughtbot.com
 

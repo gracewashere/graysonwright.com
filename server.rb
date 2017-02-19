@@ -5,12 +5,12 @@ require "neat"
 require "front_matter_parser"
 require_relative "lib/collection"
 
+set :bind, "0.0.0.0"
+
 set views: File.expand_path("../source", __FILE__)
 
 get "/" do
-  path = File.expand_path("../source/index.md", __FILE__)
-  parsed = FrontMatterParser.parse_file(path)
-  markdown parsed.content, layout_engine: :erb, layout: :"layouts/layout"
+  markdown File.read("source/index.md"), layout_engine: :erb, layout: :"layouts/layout"
 end
 
 get "/stylesheets/all.css" do

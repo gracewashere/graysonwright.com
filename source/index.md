@@ -1,5 +1,10 @@
-I'm an application designer and developer
-currently working on a project called Assemble.
+I'm a writer and community organizer
+working on a project called [Assemble].
+
+My writing examines the relationship between the system that we live in,
+and the personal fulfillment of the people who are part of it.
+
+Previously, I worked as a web application designer and developer.
 
 As a fellow at [Code for America][cfa] in 2016,
 I helped build
@@ -13,12 +18,10 @@ I studied computer science at [Michigan State University][MSU],
 where I researched digital evolution at the [BEACON] center
 and helped the startups [TempoRun] and [Carbon Cash] build their web services.
 
-I'm passionate about teaching programming,
-talking at conferences,
-and writing software that solves real problems.
 Get in touch with me by [email] – I'd love to chat.
 You can also find me on [github] and [twitter].
 
+[Assemble]: https://assembleapp.co/about
 
 [cfa]: https://www.codeforamerica.org/
 [ridealong]: http://getridealong.com/

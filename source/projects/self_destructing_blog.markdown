@@ -5,7 +5,7 @@ logo: /projects/self_destructing_blog/logo.svg
 site: http://blog.graysonwright.com
 source: https://github.com/graysonwright/blog
 position: Side Project
-teaser: To get more comfortable with ES6, I built a web interface for designing and downloading color scheme files for text editors.
+teaser: In an attempt to force myself to write more, I created a small blog with a special twist.
 ---
 
 ## Behavior Hacking

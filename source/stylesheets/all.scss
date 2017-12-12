@@ -70,9 +70,11 @@ a {
   overflow-y: scroll;
 
   img {
+    border-radius: 50%;
     display: inline-block;
-    max-width: 12em;
     margin-bottom: $gutter;
+    max-width: 12em;
+    opacity: 0.7;
   }
 
   ul li {

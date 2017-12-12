@@ -5,10 +5,10 @@
 
 @import "components/projects";
 
-$blue: #2299d4;
+$orange: #e68e4f;
 $white: #fcfdff;
 
-$emphasis: $blue;
+$emphasis: $orange;
 $dark: #444;
 
 $padding-top: 10rem;
@@ -60,7 +60,7 @@ a {
 }
 
 .sidebar {
-  background-color: $blue;
+  background-color: $orange;
   height: 100%;
   padding-right: $gutter;
   padding-top: $padding-top;

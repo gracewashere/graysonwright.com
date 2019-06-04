@@ -1,10 +1,4 @@
-I'm a writer and community organizer
-working on a project called [Assemble].
-
-My writing examines the relationship between the system that we live in,
-and the personal fulfillment of the people who are part of it.
-
-Previously, I worked as a web application designer and developer.
+I am a web application designer and developer.
 
 As a fellow at [Code for America][cfa] in 2016,
 I helped build
@@ -20,8 +14,6 @@ and helped the startups [TempoRun] and [Carbon Cash] build their web services.
 
 Get in touch with me by [email] – I'd love to chat.
 You can also find me on [github] and [twitter].
-
-[Assemble]: https://assembleapp.co/about
 
 [cfa]: https://www.codeforamerica.org/
 [ridealong]: http://getridealong.com/
